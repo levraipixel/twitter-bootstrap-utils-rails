@@ -1,0 +1,193 @@
+/*
+
+ = require ./charisma
+ = require_self
+
+*/
+
+body {
+  padding-bottom: 40px;
+  
+  background: transparentize(#8ab7cd, 0.9);
+
+  .navbar {
+    .navbar-inner {
+      background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.1) 100%);
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(0, 0, 0, 0.1)));
+      background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.1) 100%);
+      background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.1) 100%);
+      background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.1) 100%);
+      background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.1) 100%);
+      
+      .brand {
+        width: auto;
+        color: black;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+      }
+    }
+  }
+}
+.sidebar-nav {
+  padding: 9px 0;
+}
+
+.box {
+  background: white;
+}
+.box-header.well h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.main-menu-span {
+  #app-logo-container {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    
+    #app-logo {
+      
+    }
+  }
+}
+
+.block-radio-buttons label.radio {
+  display: block;
+}
+
+.btn {
+  i {
+    position: relative;
+    top: 1px;
+  }
+  .icon32 {
+    vertical-align: middle;
+  }
+}
+
+
+.box-bottom-action-links {
+  margin-bottom: 20px;
+  text-align: center;
+  
+  .dropdown-menu {
+    text-align: left;
+  }
+}
+
+.file-upload-field {
+  margin-bottom: 18px;
+  
+  img {
+    max-height: 100px;
+    max-width: 100px;
+    margin-left: 180px;
+  }
+  .current-file {
+    display: none;
+  }
+  .other-file {
+    display: none;
+  }
+  &.with-file {
+    .control-group {
+      .controls {
+        display: none;
+      }
+    }
+    .current-file {
+      display: block;
+    }
+  }
+  &.with-other-file {
+    .control-group {
+      .controls {
+        display: none;
+      }
+    }
+    .other-file {
+      display: block;
+    }
+    .btn.use-other-file {
+      display: none;
+    }
+  }
+}
+.url-field {
+  
+  .current-url {
+    display: none;
+    line-height: 28px;
+  }
+  &.with-url {
+    .new-url {
+      display: none;
+    }
+    .current-url {
+      display: block;
+    }
+  }
+}
+.field-with-righ-buttons {
+  overflow: hidden;
+  
+  .control-group {
+    float: left;
+    
+    .controls {
+      float: left;
+      margin-left: 20px;
+    }
+  }
+  .right-buttons {
+    float: left;
+    margin-left: 20px;
+  }
+}
+.control-group.file {
+  .uploader {
+    width: auto;
+    
+    .filename {
+      width: auto;
+      max-width: 470px;
+    }
+    .action {
+      width: auto;
+      max-width: 470px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+}
+
+.filter-form {
+  .control-group {
+    display: inline-block;
+    
+    label {
+    }
+    .controls {
+      display: inline-block;
+      vertical-align: middle;
+      
+      input.datepicker {
+        width: 80px;
+      }
+    }
+  }
+}
+
+.table {
+  td {
+    vertical-align: middle;
+    
+    img {
+      max-height: 60px;
+      max-width: 60px;
+    }
+  }
+}
+
