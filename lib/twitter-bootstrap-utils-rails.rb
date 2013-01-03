@@ -1,3 +1,5 @@
+#puts "LOAD #{__FILE__}"
+
 require 'acts-as-taggable-on'
 require 'chosen-rails'
 require 'cleditor_rails'
@@ -9,6 +11,7 @@ require 'rails3-jquery-autocomplete'
 ##require 'sass'
 ##require 'simple_form'
 require 'twitter-bootstrap-rails'
+require 'underscore-rails'
 
 require 'twitter-bootstrap-utils-rails/engine'
 require 'twitter-bootstrap-utils-rails/version'

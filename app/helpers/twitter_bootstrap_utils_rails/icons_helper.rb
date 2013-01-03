@@ -1,5 +1,7 @@
 # encoding: UTF-8
 
+#puts "LOAD #{__FILE__}"
+
 module TwitterBootstrapUtilsRails
   module IconsHelper
 
