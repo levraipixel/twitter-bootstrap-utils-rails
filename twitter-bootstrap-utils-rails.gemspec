@@ -24,7 +24,9 @@ Gem::Specification.new do |s|
   s.add_dependency 'rails3-jquery-autocomplete'
 
   # front-end
+  s.add_dependency 'therubyracer'
   s.add_dependency 'sass', '>= 3.1.0'
+  s.add_dependency 'less-rails'
   s.add_dependency 'chosen-rails'
   s.add_dependency 'cleditor_rails'
   s.add_dependency 'jquery-noty-rails'
