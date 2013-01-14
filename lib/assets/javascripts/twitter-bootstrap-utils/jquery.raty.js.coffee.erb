@@ -1,0 +1,10 @@
+#= require jquery.raty.min
+#= require_self
+
+$ ->
+  if $.fn.raty
+    $('[data-rel="raty"],[rel="raty"]').each ->
+
+      $(this).raty $.extend(true, {
+        path: "<%= Rails.application.config.assets.prefix %>/jquery.raty/"
+      }, ($(this).data('raty-options') || {}))
